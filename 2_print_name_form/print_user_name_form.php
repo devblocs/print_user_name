@@ -33,7 +33,8 @@ include "form_handler.php";
         </ul>
     <?php } ?>
 
-    <?php if(count($errors) == 0){
+    
+    <?php if(count($errors) == 0 && isset($fullname)){
         echo "<p>Welcome " . ucfirst($fullname) . "!</p>";
     } 
     ?>
