@@ -4,4 +4,9 @@ $last_name = "Doe"; // setting last name in a variable
 
 $full_name = $first_name . " " . $last_name;
 
-echo "Welcome {$full_name}!"; // printing the message using echo
+echo "Welcome {$full_name}! \n"; // printing the message using echo
+
+print "Welcome {$full_name}! \n"; // printing the message using print
+
+$msg = "Welcome %s! \n";
+printf($msg, $full_name); // printing the message using printf
